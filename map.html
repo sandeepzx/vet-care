@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ8L6WbB5rZUEZulUAf3kSL9uThCySJMg&callback=initMap"></script>
+</head>
+<body>
+    
+
+    <script>
+        function initMap(){
+            var location = {lat:27.2046,lng:-77.4977};
+            
+            var map = new google.maps.Map(document.getElementById("map"),{zoom:8,center: location});
+            // function addmarker(Location){
+            //     const marker = new.google.maps.Marker({
+            //         position:{lat:,lng:-};
+            //         map:map
+            //     })
+            // }
+            // addmarker({lat:10.5245,lng:-76.1941});
+            // addmarker({lat:,lng:-});
+            // addmarker({lat:,lng:-});
+            // addmarker({lat:,lng:-});
+        }
+    </script>
+      
+      
+</body>
+</html>
