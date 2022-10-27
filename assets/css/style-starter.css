@@ -339,6 +339,7 @@ legend {
   line-height: inherit;
   color: inherit;
   white-space: normal;
+  color: var(--heading-color);
 }
 
 @media (max-width: 1200px) {
