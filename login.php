@@ -93,8 +93,8 @@
                     <ul class="breadcrumbs-custom-path">
                         <li><a href="index.php">Home</a></li>
                         <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>New User
-                        <span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>Doctor
-                        <span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>Register</li>
+                        <span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>Pet
+                        <span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>Login</li>
                     </ul>
                 </div>
             </div>
@@ -104,76 +104,27 @@
         <section class="w3l-contact-11 py-5" id="contact">
             <div class="container py-md-5 py-5">
                 <div class="row justify-content-center text-center">                                   
-                    <h3 class="title-style mb-2">Doctor</h3>                                                         
+                    <h3 class="title-style mb-2">Login</h3>                                                         
                 </div>
                 <div class="form-41-mian mt-5 pt-lg-5 pt-md-4">
                     <div class="container">
                         <div class="form-inner-cont">
                             <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
-                                                                
-                                <div class="row align-form-map">
-                                    <div class="col-sm-12 form-input">
-                                        <label for="w3lName">Full Name</label>
-                                        <input type="text" name="FullName" id="FullName" placeholder="" />
+                                <div class="cen">
+                                    <div class="col-sm-12 row align-form-map">
+                                        <div class="col-sm-12 form-input">
+                                            <label for="w3lName">Full Name</label>
+                                            <input type="text" name="FullName" id="FullName" placeholder="" />
+                                        </div>            
+                                        <div class="col-sm-12 form-input">
+                                            <label for="w3lName">Password</label>
+                                            <input type="Password" name="Password" id="Password" placeholder="" />
+                                        </div>
+                                                                    
                                     </div>
-                                    <div class="col-sm-12 form-input">
-                                        <label for="dob">Date Of Birth</label>
-                                        <input type="date" name="dob" id="dob" placeholder="" />
-                                    </div>
-                                    <div class="col-sm-12 form-input">
-                                        <label for="age">Age</label>
-                                        <input type="number" name="age" placeholder="" class="contact-input">
-                                    </div>
-                                    <div class="col-sm-12 form-input">
-                                        <label for="w3lSender">Phone Number</label>
-                                        <input type="number" name="w3lPhone" placeholder="" class="contact-input">
-                                    </div>
-                                    <div class="col-sm-12 form-input">
-                                        <label for="w3lSender">Email</label>
-                                        <input type="email" name="w3lSender" id="w3lSender" placeholder="" required="" />
-                                    </div>
-                                </div>
-
-                                    <div class="form-input">
-                                        <label for="Address">Address</label>
-                                        <textarea placeholder="" name="Address" id="Address" required=""></textarea>
-                                    </div>
-                                <div class="row align-form-map">   
-                                    <div class="col-sm-12 form-input">
-                                        <!-- <label for="w3lSender"><b>Location</b></label><br> -->
-                                        <fieldset class="harry">
-                                            <legend><b>Location</b></legend>
-                                            <label for="w3lSender">longitude</label>
-                                            <input type="number" name="longitude" placeholder="" class="contact-input">
-                                            <label for="w3lSender">latitude</label>
-                                            <input type="number" name="latitude" placeholder="" class="contact-input">
-                                        </fieldset>
-                                    </div>   
-                                    <div class="col-sm-12 form-input">
-                                        <fieldset class="harry">
-                                            <legend><b>Consultation Time</b></legend>
-                                                <label for="Stime">Starting</label>
-                                                <input type="time" name="Stime" id="Stime" placeholder="" />
-                                                <label for="Etime">Ending</label>
-                                                <input type="time" name="Etime" id="Etime" placeholder="" />
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-sm-12 form-input">
-                                        <label for="myfile">Certificate</label>
-                                        <input type="file" name="myfile" id="myfile" placeholder="" />
-                                    </div>
-                                    <div class="col-sm-12 form-input">
-                                        <label for="w3lName">Password</label>
-                                        <input type="Password" name="Password" id="Password" placeholder="" />
-                                    </div>
-                                    <div class="col-sm-12 form-input">
-                                        <label for="w3lName">Confirm Password</label>
-                                        <input type="Password" name="confirmPassword" id="confirmPassword" placeholder="" />
-                                    </div>                              
-                                </div>
+                                </div>                            
                                 <div class="submit text-right">
-                                    <button type="submit" class="btn btn-style-white btn-style-primary">Submit
-                                        Message</button>
+                                    <button type="submit" class="btn btn-style-white btn-style-primary">Login</button>
                                 </div>
                             </form>
                         </div>
@@ -186,7 +137,7 @@
             <div class="container">
                 <div class="row footer-p">
                     <div class="col-lg-4 pr-lg-5">
-                        <a class="logo" href="index.html"><i class="fa fa-paw" aria-hidden="true"></i> Vet Care</a>
+                        <a class="logo" href="index.html"><i class="fa fa-paw" aria-hidden="true"></i> Dogs Care</a>
                         <p class="mt-4">Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam
                             eget turpis ornare, euismod ligul aeget, enenatis dui. </p>
                     </div>
@@ -201,6 +152,8 @@
                                             Us</a></li>
                                     <li><a href="services.html"><i class="fa fa-angle-right"
                                                 aria-hidden="true"></i>Services</a></li>
+                                    <li><a href="#blog"><i class="fa fa-angle-right" aria-hidden="true"></i>Blog
+                                            Posts</a></li>
                                     <li><a href="contact.html"><i class="fa fa-angle-right"
                                                 aria-hidden="true"></i>Contact Us</a></li>
                                 </ul>
@@ -231,12 +184,12 @@
                     </div>
                 </div>
                 <div class="d-flex below-section justify-content-between align-items-center pt-4 mt-5">
-                    <!-- <div class="columns text-lg-left">
+                    <div class="columns text-lg-left">
                         <p class="copy-text">@ 2020 Dogs Care. All rights reserved. Design by <a
                                 href="https://w3layouts.com/" target="_blank">
                                 W3Layouts</a>
                         </p>
-                    </div> -->
+                    </div>
                     <div class="columns-2 mt-md-0 mt-3">
                         <ul class="social">
                             <li><a href="#facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>

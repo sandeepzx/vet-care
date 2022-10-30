@@ -54,7 +54,7 @@ Author URL: http://w3layouts.com
                             <a class="nav-link" href="contact.php">Contact Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="map.html">Google Map</a>
+                            <a class="nav-link" href="map.php">Google Map</a>
                         </li>
                         <!-- search button -->
                         <div class="search-right">

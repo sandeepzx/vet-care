@@ -217,9 +217,9 @@
                 <div class="face face2">
                     <div class="content">
                         <p>Already a registered</p>
-                            <a href="#">Login Here</a>
+                            <a href="login.php">Login Here</a>
                         <p>New user?</p>
-                            <a href="doc-register.php">Register Now</a>
+                            <a href="doc-register.html">Register Now</a>
                     </div>
                 </div>
             </div>
@@ -233,7 +233,7 @@
                 <div class="face face2">
                     <div class="content">
                         <p>Already a registered</p>
-                            <a href="#">Login Here</a>
+                            <a href="login.php">Login Here</a>
                         <p>New user?</p>
                             <a href="pet-register.php">Register Now</a>
                     </div>
